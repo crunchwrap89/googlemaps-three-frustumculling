@@ -53,6 +53,11 @@ const map = await initMap();
 
       console.log("amount of boxmeshes in scene: " + overlay.scene.children.length);
 
+    (window as any).__GLOBALS__ = {
+        overlay: overlay,
+        map: map
+      };
+
     function getRandomInRange() {
         const from: any = -180;
         const to = 180;
