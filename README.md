@@ -15,9 +15,11 @@ But when checking how many drawcalls are made by the renderer, it says that more
 
 - Open chrome devtools and add live expressions to below 2 rows:
 
+```
 window.__GLOBALS__.overlay.renderer.info.render
 
-window.__GLOBALS__.map.getZoom()
+window.__GLOBALS__.map.getZoom() 
+```
 
 - all objects (2000) are being rendered when on zoomLevel 1
 
