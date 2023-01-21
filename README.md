@@ -26,3 +26,7 @@ window.__GLOBALS__.map.getZoom()
 - atleast 1000 objects are still being rendered when on zoomlevel 22-4
 
 When 0 boxes are within viewport, there should be 0 renderer calls but the calls never go below 1000.
+
+
+Find tutorials on fun coding projects at
+[www.marcusn.dev](https://marcusn.dev)
